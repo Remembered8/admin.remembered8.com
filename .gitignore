@@ -28,3 +28,7 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# The admin reads the api's database; nothing local of its own.
+/database/*.sqlite
+/database/*.sqlite-journal
